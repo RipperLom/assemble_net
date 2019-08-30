@@ -1,0 +1,8 @@
+venv
+.idea
+test
+build
+dist
+model
+assemble.egg-info
+*__pycache__*
