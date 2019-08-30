@@ -8,8 +8,6 @@ import math
 
 import tensorflow as tf
 
-import layers
-
 
 class EmbeddingLayer(object):
     """

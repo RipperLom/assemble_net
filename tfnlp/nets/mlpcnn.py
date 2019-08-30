@@ -16,10 +16,7 @@
 
 import logging
 
-import layers
-import layers.embed_layer as embed_layer
-import layers.metric_layer as metric_layer
-import layers.mezz_layer as mezz_layer
+from tfnlp import layers
 
 
 class MLPCnn(object):

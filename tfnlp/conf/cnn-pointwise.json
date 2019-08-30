@@ -1,28 +1,28 @@
 {
     "trainer":{
-        "trainer_py": "./trainers/trainer",
-        "trainer_class": "Trainer"
+        "trainer_py": "./tfnlp/trainers/trainer",
+        "trainer_class": "ClassicTrainer"
     },
 
     "model":{
-        "net_py": "./nets/mlpcnn",
+        "net_py": "./tfnlp/nets/mlpcnn",
         "net_class": "MLPCnn",
         "vocabulary_size": 3,
         "embedding_dim": 128,
         "num_filters": 256,
         "hidden_size": 128,
         "window_size": 3,
-        "loss_py": "./layers/loss_layer",
+        "loss_py": "./tfnlp/layers/loss_layer",
         "loss_class": "SoftmaxWithLoss"
     },
 
     "transform":{
-        "transform_py": "./transforms/transform",
+        "transform_py": "./tfnlp/transforms/transform",
         "transform_class": "TFPointwisePaddingData"
     },
 
     "optimizer":{
-        "optimizer_py": "./optimizers/optimizer",
+        "optimizer_py": "./tfnlp/optimizers/optimizer",
         "optimizer_class": "AdamOptimizer"
     },
 

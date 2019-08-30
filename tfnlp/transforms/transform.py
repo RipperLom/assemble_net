@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from utils.utility import get_all_files
+from util.utility import get_all_files
 
 
 def load_batch_ops(example, batch_size, shuffle):

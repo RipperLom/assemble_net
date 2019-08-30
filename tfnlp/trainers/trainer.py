@@ -9,10 +9,7 @@ import time
 import tensorflow as tf
 
 
-from utils.utility import clazz
-
-
-class Trainer(object):
+class ClassicTrainer(object):
 
     def __init__(self, config, transform, net, loss, optimizer):
         self.thread_num = int(config["thread_num"])

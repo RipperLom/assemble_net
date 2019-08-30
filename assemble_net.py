@@ -8,15 +8,15 @@
 import argparse
 import sys
 
-from utils.utility import clazz
-from utils.utility import load_config
+from util.utility import clazz
+from util.utility import load_config
 
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--task', default='train',
                         help='task: train/predict, the default value is train.')
-    parser.add_argument('--task_conf', default='./examples/cnn-pointwise.json',
+    parser.add_argument('--task_conf', default='./tfnlp/conf/cnn-pointwise.json',
                         help='task_conf: config file for this task')
     args = parser.parse_args()
 

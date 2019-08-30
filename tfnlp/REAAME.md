@@ -1,4 +1,7 @@
-## Assemble
+tfnlp
+=====================
+
+## 模块介绍
 
 TensorFlow版本Assemble，提供了
 
@@ -10,7 +13,6 @@ TensorFlow版本Assemble，提供了
 
 可以通过配置文件的形式灵活选择您需要的网络结构，损失函数，训练方式。
 
-### 工程结构
 
 ```
 .
@@ -43,7 +45,6 @@ TensorFlow版本Assemble，提供了
 └─trains─┐                      训练
          └─train.py             工具
 
-```
+## 使用说明
 
-### 使用说明
-目前运行assemble_net.py运行
+运行assemble_net.py
